@@ -53,5 +53,5 @@ async def on_reaction_add(reaction, user):
 
 
 
-
-client.run("ODAxMjg3OTQ1MDU0NzE1OTE0.YAefjQ.sXeBEdV6L-k5_Yra3T-hNiOwhCg")
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
